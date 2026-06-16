@@ -1,0 +1,22 @@
+{
+  "name": "hr-management-system",
+  "version": "1.0.0",
+  "description": "A browser-based Human Resources Management System",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint js/ --ext .js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  },
+  "jest": {
+    "testMatch": ["**/tests/**/*.test.js"],
+    "collectCoverageFrom": [
+      "js/**/*.js",
+      "!js/app.js"
+    ]
+  },
+  "license": "MIT"
+}
