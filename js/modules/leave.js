@@ -2,10 +2,10 @@
  * Leave management module.
  */
 if (typeof require !== 'undefined') {
-  var Storage = require('./storage');
-  var Validator = require('../utils/validator');
-  var Formatter = require('../utils/formatter');
-  var DateUtils = require('../utils/dateUtils');
+  Storage = require('./storage');
+  Validator = require('../utils/validator');
+  Formatter = require('../utils/formatter');
+  DateUtils = require('../utils/dateUtils');
 }
 
 const LEAVE_KEY = 'hr_leaves';

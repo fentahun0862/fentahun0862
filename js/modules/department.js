@@ -2,8 +2,8 @@
  * Department management module.
  */
 if (typeof require !== 'undefined') {
-  var Storage = require('./storage');
-  var Formatter = require('../utils/formatter');
+  Storage = require('./storage');
+  Formatter = require('../utils/formatter');
 }
 
 const DEPARTMENT_KEY = 'hr_departments';

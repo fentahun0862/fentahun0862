@@ -2,9 +2,9 @@
  * Employee management module.
  */
 if (typeof require !== 'undefined') {
-  var Storage = require('./storage');
-  var Validator = require('../utils/validator');
-  var Formatter = require('../utils/formatter');
+  Storage = require('./storage');
+  Validator = require('../utils/validator');
+  Formatter = require('../utils/formatter');
 }
 
 const EMPLOYEE_KEY = 'hr_employees';

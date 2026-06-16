@@ -13,6 +13,7 @@
     "no-unused-vars": ["warn", { "args": "none" }],
     "no-undef": "off",
     "no-var": "off",
-    "no-redeclare": "off"
+    "no-redeclare": "off",
+    "no-global-assign": "off"
   }
 }

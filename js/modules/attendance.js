@@ -2,8 +2,8 @@
  * Attendance tracking module.
  */
 if (typeof require !== 'undefined') {
-  var Storage = require('./storage');
-  var Formatter = require('../utils/formatter');
+  Storage = require('./storage');
+  Formatter = require('../utils/formatter');
 }
 
 const ATTENDANCE_KEY = 'hr_attendance';
