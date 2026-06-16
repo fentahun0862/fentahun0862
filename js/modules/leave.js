@@ -1,13 +1,11 @@
 /**
  * Leave management module.
  */
-let Storage, Validator, Formatter, DateUtils;
-
 if (typeof require !== 'undefined') {
-  Storage = require('./storage');
-  Validator = require('../utils/validator');
-  Formatter = require('../utils/formatter');
-  DateUtils = require('../utils/dateUtils');
+  var Storage = require('./storage');
+  var Validator = require('../utils/validator');
+  var Formatter = require('../utils/formatter');
+  var DateUtils = require('../utils/dateUtils');
 }
 
 const LEAVE_KEY = 'hr_leaves';

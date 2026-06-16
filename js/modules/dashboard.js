@@ -1,13 +1,11 @@
 /**
  * Dashboard statistics module.
  */
-let EmployeeModule, DepartmentModule, AttendanceModule, LeaveModule;
-
 if (typeof require !== 'undefined') {
-  EmployeeModule = require('./employee');
-  DepartmentModule = require('./department');
-  AttendanceModule = require('./attendance');
-  LeaveModule = require('./leave');
+  var EmployeeModule = require('./employee');
+  var DepartmentModule = require('./department');
+  var AttendanceModule = require('./attendance');
+  var LeaveModule = require('./leave');
 }
 
 const DashboardModule = {
